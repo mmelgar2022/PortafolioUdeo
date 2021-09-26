@@ -1,0 +1,25 @@
+{
+ 
+    "ID": "Corona",
+    "Nombre": "Cerveza Corona",
+    "Presentacion": "Pack 6 Unidades, Caja 24 Unidades",
+    "Contenido": "12 Oz.",
+    "Fabricante": "Cervecería Modelo",
+    "facebook": "https://www.facebook.com/cervezamodeloguatemala",
+    "twitter": "https://twitter.com/cervezamodelomx?lang=es",
+    "Image" :"assets/img/Producto3Recurso 5",
+
+    "ID2": "Gallo",
+    "Nombre2": "Cerveza Gallo",
+    "Presentacion2": "Pack 6 Unidades, Caja 24 Unidades",
+    "Contenido2": "12 Oz.",
+    "Fabricante2": "Cervecería Centroamericana",
+    
+    "ID3": "Atlas",
+    "Nombre3": "Cerveza Atlas",
+    "Presentacion3": "Pack 6 Unidades, Caja 24 Unidades",
+    "Contenido3": "12 Oz.",
+    "Fabricante3": "Cervecería Nacional de Panama"
+    
+
+}

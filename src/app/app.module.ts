@@ -10,7 +10,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ProductosComponent } from './pages/productos/productos.component';
-import { DetalleDeProductosComponent } from './pages/detalle-de-productos/detalle-de-productos.component'
+import { DetalleDeProductosComponent } from './pages/detalle-de-productos/detalle-de-productos.component';
+
 
 @NgModule({
   declarations: [

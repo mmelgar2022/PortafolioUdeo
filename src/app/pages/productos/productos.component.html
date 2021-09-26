@@ -1,22 +1,19 @@
 <h1>Modulo Productos</h1>
 <br><br><br>
-<div class="ae-grid au-xs-ta-center au-mb-4">
-    <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/Producto3Recurso 5.png" alt="" class="au-mb-3">
-      <h5 class="ae-u-bolder au-mt-2">Cerveza Corona <br>12 oz. SixPack</h5>
-      <p class="ae-u-bolder au-mb-3">Q.35.75</p>
-      <a class="fcc-btn" routerLink="detalleProductos">Ver Más</a> <br><br><br>
-      <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Es una bebida del tipo pilsener que comenzó a elaborarse en el año de 1925 en la planta de la Cervecería Modelo</p>
+<div  class="ae-grid au-xs-ta-center au-mb-4">
+    <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3" *ngFor="let producto of arrProductos">
+      <img [src]="producto.imagen" alt="" class="au-mb-3">
+      <h5 class="ae-u-bolder au-mt-2">{{producto.nombre}}</h5>
+      <p class="ae-u-bolder au-mb-3">{{producto.precio}}</p>
+      <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{producto.Descripcion}}</p>
     </div>
-    <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/Producto2Recurso 2.png" alt="" class="au-mb-3">
-      <h5 class="ae-u-bolder au-mt-2">Cerveza Gallo <br>12 oz. SixPack</h5>
-      <p class="ae-u-bolder au-mb-3">Q.51.00</p>
-      <a class="fcc-btn" routerLink="detalleProductos">Ver Más</a> <br><br><br>
-      <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Es la cerveza más consumida en Guatemala. La Cervecería Centro Americana tuvo hasta 2003 una cuota de mercado cercana al 100% del mercado cervecero guatemalteco</p>
-    </div>
-    <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/Producto3Recurso 4.png" alt="" class="au-mb-3">
-      <h5 class="ae-u-bolder au-mt-2">Cerveza Atlas <br>12 Oz. SixPack</h5>
-      <p class="ae-u-bolder au-mb-3">Q.45.50</p>
-      <a class="fcc-btn" routerLink="detalleProductos">Ver Más</a> <br><br><br>
-      <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Elaborada con el más bajo nivel de amargor para permitir al consumidor disfrutar de una cerveza ligera y refrescante.</p>
-    </div>
+    
+    
+    
   </div>
+  <div  class="" style="align-content: center;">
+    <a class="fcc-btn" routerLink="/detalleProductos">Ver Más</a> <br><br><br>
+    </div>
+    
+    
+  
